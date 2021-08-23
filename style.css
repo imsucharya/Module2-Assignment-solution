@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header { 
+ display: flex;
+ justify-content: center;
+  margin-top: 20px;
+ 
+  font-family: 'Rampart One', cursive;
+  
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+
+.box-container {
+    margin-top: 50px;
+}
+hr {
+    width: auto;
+    background-color: firebrick;
+}
+
+.i {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rampart One', cursive;
+    float: right;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    background-color: rgb(155, 54, 54);
+    border-radius: 15px;
+}
+.ii {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rampart One', cursive;
+    float: right;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    background-color: rgb(165, 74, 62);
+    border-radius: 15px;
+  
+}
+
+.iii {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rampart One', cursive;
+    float: right;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    background-color: rgb(182, 70, 50);
+    border-radius: 15px;
+}
+.menu1 {
+    margin-right: 15px;
+    margin-left: 15px;
+    border: rgb(4, 14, 37) 3px solid;
+    border-radius: 15px;
+    background-color: rgb(160, 155, 155);
+}
+
+.para1 {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.menu2 {
+    
+    margin-right: 15px;
+    border: rgb(4, 14, 37) 3px solid;
+    border-radius: 15px;
+    background-color: rgb(160, 155, 155);
+    
+}
+
+.para2 {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.menu3 {
+    margin-right: 15px;
+    border: rgb(4, 14, 37) 3px solid;
+    border-radius: 15px;
+    background-color: rgb(160, 155, 155);
+}
+.para3 {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+@media(max-width:767px){
+    .row {
+        flex-direction: column;
+    }
+
+    .menu2 {
+        margin-left: 15px;
+    
+    }
+
+    .menu3 {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width:991px) {
+   /* .menu1 {
+        width: 50%;
+        
+    }
+
+    .menu2 {
+        width: 50%;
+
+    }
+
+    .menu2 {
+        max-width: 100%;
+    }*/
+    
+}
+
